@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, svg, hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: normal;
+}
+
+mark {
+  background-color: transparent;
+}
+
+header {
+  background-color: black;
+  height: 1.5rem;
+}
+
+main {
+  background-color: #054163;
+  height: 47rem;
+}
+main article h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+main article section {
+  display: none;
+  margin: 0 auto;
+  width: 95%;
+  height: 38rem;
+  background-color: #086AA3;
+  border: solid 1px black;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+main article section#s1 {
+  display: none;
+}
+main article section #titre {
+  font-size: 2rem;
+  padding-top: 0.4rem;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  background-color: #086AA3;
+  color: white;
+}
+main article section #texteInfo {
+  font-size: 1.2rem;
+  border: solid 1px;
+  width: 35%;
+  height: 32rem;
+  background-color: #FEFEFE;
+}
+main article section #texteInfo h3 {
+  font-size: 2rem;
+  padding: 5px;
+}
+main article section #texteInfo hr {
+  height: 1px;
+  color: black;
+  border: 1px solid;
+  width: 100%;
+}
+main article section #texteInfo p {
+  padding: 5px;
+  padding-bottom: 12px;
+}
+main article section #img {
+  width: 60%;
+  height: 32rem;
+  background: no-repeat center/95% url("../img/0.jpg");
+}
+main #bouton {
+  padding-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+main #bouton button {
+  background-color: gray;
+  color: white;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: 2rem;
+  border-radius: 0% 50% 50% 0%;
+}
+
+footer {
+  background-color: black;
+  height: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
